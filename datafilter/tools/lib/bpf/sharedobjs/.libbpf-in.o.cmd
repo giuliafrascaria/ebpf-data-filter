@@ -1,0 +1,1 @@
+cmd_sharedobjs/libbpf-in.o :=  ld -r -o sharedobjs/libbpf-in.o  sharedobjs/libbpf.o sharedobjs/bpf.o sharedobjs/nlattr.o sharedobjs/btf.o sharedobjs/libbpf_errno.o sharedobjs/str_error.o sharedobjs/netlink.o sharedobjs/bpf_prog_linfo.o sharedobjs/libbpf_probes.o sharedobjs/xsk.o sharedobjs/hashmap.o sharedobjs/btf_dump.o
